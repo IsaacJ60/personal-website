@@ -37,10 +37,10 @@ a {
     color: white;
     font-family: "IBM Plex Mono", monospace;
     font-size: 36px;
-
+/* 
     background-color: rgba(31, 31, 31, 0.6);
     backdrop-filter: blur(10px);
-    border-radius: 15px;
+    border-radius: 15px; */
     text-align: center;
     vertical-align: middle;
     padding: 15px;
