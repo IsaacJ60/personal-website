@@ -34,14 +34,14 @@
 
 .project-title{
     color: white;
-    font-family: "RobotoSlab", sans-serif;
+    font-family: "IBM Plex Mono", monospace;
     text-align: center;
     font-size: 24px;
 }
 
 .project-text{
     color: white;
-    font-family: "RobotoSlab", sans-serif;
+    font-family: "IBM Plex Mono", monospace;
     margin: 1rem;
 }
 
