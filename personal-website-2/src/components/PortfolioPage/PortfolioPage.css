@@ -1,0 +1,66 @@
+.portfolio-page {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-page h1 {
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 27, 10);
+    text-shadow: 0 0 10px #00ff0015,
+                 0 0 20px #00ff0011,
+                 0 0 100px #00ff001f;
+    transition: font-size 0.3s, color 0.3s; /* Transition for smooth effect */
+    font-family: "Poppins", sans-serif;
+    margin: 40px auto;
+    font-size: 2.7vw;
+  }
+  
+  .portfolio-page h1:hover {
+    justify-content: center;
+    font-size: 3vw; /* Larger size on hover */
+    color: #c9c9c9; /* New neon color on hover */
+  }
+
+  /* LinkList.css */
+.link-list {
+  margin-top: 20px;
+}
+
+.link-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+}
+
+.link-list a {
+  display: flex;
+  padding: 10px 20px;
+  margin-top: 30px;
+  width: 30vw;
+  height: 5vw;
+  background-color: #00000041; /* Change background color as needed */
+  color: #e6e6e6;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px; /* Rounded corners */
+  font-size:x-large;
+  transition: background-color 0.3s ease, transform 0.3s ease-out, filter 0.3s ease-out;
+}
+
+.link-list a:hover {
+  background-color: #ccffc223; /* Change hover background color as needed */
+  transform: scale(1.02);
+}

@@ -1,0 +1,70 @@
+/* src/components/ExperiencesPage.css */
+
+
+
+.experiences-page {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    color: #e6e6e6;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .experiences-page h1 {
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 27, 10);
+    text-shadow: 0 0 10px #00ff0015,
+                 0 0 20px #00ff0011,
+                 0 0 100px #00ff001f;
+    transition: font-size 0.3s, color 0.3s; /* Transition for smooth effect */
+    font-family: "Poppins", sans-serif;
+    margin: 40px auto;
+    font-size: 4rem;
+  }
+  
+  .experiences-page h1:hover {
+    justify-content: center;
+    font-size: 4.2rem; /* Larger size on hover */
+    color: #c9c9c9; /* New neon color on hover */
+  }
+  
+  .experiences-container {
+    max-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px 20px;
+    justify-content: center;
+    align-items: safe;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.1); /* Dark background color */
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    z-index: 1;
+    transition: font-size 0.3s, color 0.3s; /* Transition for smooth effect */
+  }
+
+  
+  .experience-card {
+    background-color: rgba(0, 0, 0, 0.2); /* Dark background color */
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #e6e6e6;
+  }
+  
+  .experience-card p {
+    margin-bottom: 10px;
+    color: #e6e6e6;
+  }
+  

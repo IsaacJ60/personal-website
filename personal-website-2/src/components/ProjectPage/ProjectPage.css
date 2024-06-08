@@ -1,0 +1,97 @@
+/* src/components/ProjectPage.css */
+
+.project-page {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.project-page h1 {
+  text-align: center;
+  justify-content: center;
+  color: rgb(0, 27, 10);
+  text-shadow: 0 0 10px #00ff0015,
+               0 0 20px #00ff0011,
+               0 0 100px #00ff001f;
+  transition: font-size 0.3s, color 0.3s; /* Transition for smooth effect */
+  font-family: "Poppins", sans-serif;
+  margin: 40px auto;
+  font-size: 2.7vw;
+}
+
+.project-page h1:hover {
+  justify-content: center;
+  font-size: 3vw; /* Larger size on hover */
+  color: #c9c9c9; /* New neon color on hover */
+}
+
+.project-container {
+  max-width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+  align-items: safe;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.1); /* Dark background color */
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  z-index: 1;
+}
+
+.project-card {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #d1d1d142;
+  border-radius: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease-out, filter 0.3s ease-out;
+  background: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #e6e6e6;
+  width: 250px; /* Set a fixed width for each project card */
+}
+
+.project-card:hover {
+  background: rgba(0, 0, 0, 0.35);
+  transform: scale(1.05);
+}
+
+.project-overlay {
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  image-rendering: optimizeSpeed;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: blur(0); /* Reset the blur for the image */
+}
+
+.project-details {
+  padding: 10px;
+  text-align: left;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: relative;
+  top: -8px; /* Adjust the positioning as needed */
+}
+
+.project-details h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.project-details p {
+  margin: 0;
+}
